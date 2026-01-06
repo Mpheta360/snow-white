@@ -1,0 +1,40 @@
+{
+  "name": "snow-white",
+  "version": "1.0.0",
+  "description": "Snow white schools website for accessibility and visibility",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mpheta360/snow-white.git"
+  },
+  "keywords": [
+    "Snow",
+    "white",
+    "schools",
+    "best",
+    "schools",
+    "nursery",
+    "primary",
+    "schools"
+  ],
+  "author": "Isaac Monawe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mpheta360/snow-white/issues"
+  },
+  "homepage": "https://github.com/Mpheta360/snow-white#readme",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
